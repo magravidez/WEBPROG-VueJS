@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .apple {
         border: dashed black 1px;
         display: inline-block;
