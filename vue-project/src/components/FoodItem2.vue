@@ -30,6 +30,6 @@ export default {
   display: inline-block;
   margin: 10px;
   padding: 10px;
-  background-color: lightyellow;
+  background-color: rgba(176, 196, 222, 0.9);
 }
 </style>
