@@ -154,6 +154,7 @@ body {
 p {
   font-size: 1em;
   padding: 0;
+  margin-top: 10px;
 }
 
 .small {
@@ -165,7 +166,7 @@ p {
  
 .small > div {
   background-color: rgba(176, 196, 222, 0.9);
-  width: 200px;
+  max-width: 250px;
   height: auto;
   margin-top: 20px;
   margin-bottom: 10px;
