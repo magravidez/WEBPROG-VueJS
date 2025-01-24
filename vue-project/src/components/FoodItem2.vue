@@ -1,8 +1,10 @@
 <template>
+  <div class="mangogo">
     <div class="mango">
-        <h2>{{ name }}</h2>
-        <p>{{ message }}</p>
+      <h2>{{ name }}</h2>
+      <p>{{ message }}</p>
     </div>
+  </div>
 </template>
 
 <script>
@@ -17,11 +19,18 @@ export default {
 </script>
 
 <style scoped>
+.mangogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .mango {
-        border: dashed black 1px;
-        display: inline-block;
-        margin: 10px;
-        padding: 10px;
-        background-color: lightyellow;
+  border: dashed black 1px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: lightyellow;
 }
 </style>
