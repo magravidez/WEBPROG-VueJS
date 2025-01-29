@@ -10,8 +10,9 @@
   </div>
 
   <div class="container">
-    <h1>Countries</h1>
-      <countries/>
+    <ul>
+        <li v-for="country in countries" :key="country.id">{{ country.name }}</li>
+    </ul>
   </div>
 
 </template>
