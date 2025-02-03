@@ -28,7 +28,7 @@ onMounted(() => {
         <strong>{{ item.name }}</strong> ({{ item.email }}) - "{{ item.comment }}"
       </li>
     </ul>
-    <p v-else>No feedback available.</p> <!-- Handling when there's no feedback -->
+    <p v-else>No feedback available.</p>
   </div>
 </template>
 
