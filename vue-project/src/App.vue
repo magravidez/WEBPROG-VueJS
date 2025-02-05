@@ -19,3 +19,13 @@
   </div>
 
 </template>
+
+<style>
+.mwehehe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+<style/>

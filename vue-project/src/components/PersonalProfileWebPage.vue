@@ -95,7 +95,7 @@
 
 </template>
 
-<style scoped>
+<style>
 
 * {
   margin: 0;
