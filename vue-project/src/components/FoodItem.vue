@@ -1,5 +1,5 @@
 <template>
-  <div class="appleple">
+  <div class="appledeap">
     <div class="apple">
       <h2>{{ name }}</h2>
       <p>{{ message }}</p>
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style scoped>
-.appleple {
+.appledeap {
   display: flex;
   justify-content: center;
   align-items: center;
