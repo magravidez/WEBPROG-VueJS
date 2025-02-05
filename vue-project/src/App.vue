@@ -2,20 +2,14 @@
 
   <personal-profile-web-page/>
 
-  <div class="container">
-    <h1>Food</h1> <br>
-      <food-item/> <br>
-      <food-item2/> <br>
-      <food-item/>
-  </div>
+  <h1>Food</h1> <br>
+    <food-item/> <br>
+    <food-item2/> <br>
+    <food-item/> <br>
 
-  <div class="container">
-    <country/>
-  </div>
+    <country/> <br>
 
-  <div class="container">
-    <comment-form/>
+    <comment-form/> <br>
     <comment/>
-  </div>
 
 </template>
