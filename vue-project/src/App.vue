@@ -14,8 +14,8 @@
   </div>
 
   <div class="container">
-    <comment/>
     <comment-form/>
+    <comment/>
   </div>
 
 </template>
