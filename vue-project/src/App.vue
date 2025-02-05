@@ -22,6 +22,7 @@
 
 <style>
 .mwehehe {
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
