@@ -1,5 +1,5 @@
 <template>
-    <h1>Comments</h1>
+    <h1>COMMENTS</h1>
     <ul>
       <li v-for="comment in comments" :key="comment.id">{{ comment.name }} {{ comment.comment }}</li>
     </ul>
@@ -35,7 +35,13 @@ onMounted(() => {
 }
 
 h1 {
-  color: #1A4FAF;
+  font-family: Courier New, monospace;
+  font-size: 2em;
+  color: floralwhite;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+  letter-spacing: 5px;
+  margin: 0;
 }
 
 ul {

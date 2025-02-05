@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h2>Leave a Comment</h2>
+      <h2>LEAVE A COMMENT!!</h2>
       <form @submit.prevent="submitComment">
         <div class="form-group">
           <label for="name">Name:</label>
@@ -27,8 +27,7 @@
   const comment = ref('');
   const submissionStatus = ref(null);
   
-  // Your Supabase URL and Key - IMPORTANT!
-  const tableName = 'comments'; // Name of your Supabase table
+  const tableName = 'comments';
   
   async function submitComment() {
     submissionStatus.value = "Submitting...";
@@ -42,7 +41,7 @@
         submissionStatus.value = "Error submitting comment. Please try again.";
       } else {
         submissionStatus.value = "Comment submitted successfully!";
-        name.value = ''; // Clear form fields
+        name.value = '';
         comment.value = '';
       }
     } catch (err) {
@@ -71,8 +70,9 @@
   
   .btn {
     padding: 0.5rem 1rem;
-    background-color: #007bff;
-    color: white;
+    background-color: floralwhite;
+    margin: auto;
+    color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
