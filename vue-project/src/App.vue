@@ -28,4 +28,4 @@
     align-items: center;
     justify-content: flex-start;
 }
-<style/>
+</style>
