@@ -14,8 +14,8 @@
   </div>
 
   <div class="container">
-    <feedback/>
-    <feedback-form/>
+    <comment/>
+    <comment-form/>
   </div>
 
 </template>
