@@ -6,6 +6,7 @@ import PersonalProfileWebPage from './components/PersonalProfileWebPage.vue'
 import Country from './components/Country.vue'
 import Comment from './components/Comment.vue'
 import CommentForm from './components/CommentForm.vue'
+import RestApi from './components/RestApi.vue'
 
 const app = createApp(App)
 
@@ -15,5 +16,6 @@ app.component('personal-profile-web-page', PersonalProfileWebPage)
 app.component('country', Country)
 app.component('comment', Comment)
 app.component('comment-form', CommentForm)
+app.component('rest-api', RestApi)
 
 app.mount('#app')

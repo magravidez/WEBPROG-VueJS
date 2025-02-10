@@ -3,7 +3,7 @@
   <personal-profile-web-page/>
 
   <div class="mwehehe">
-    <h1>Food</h1> <br>
+    <h1>FOOD</h1> <br>
       <food-item/> <br>
       <food-item2/> <br>
       <food-item/>
@@ -18,11 +18,17 @@
     <comment/>
   </div>
 
+  <div class="mwehehe">
+    <rest-api/>
+  </div>
+
 </template>
 
 <style>
 .mwehehe {
-    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(176, 196, 222, 0.9);
+    max-width: 700px;
     margin: auto;
     display: flex;
     flex-direction: column;
